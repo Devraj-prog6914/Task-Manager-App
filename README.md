@@ -1,22 +1,25 @@
-<<<<<<< HEAD
-# task_manager_app
+TASK MANAGER APP
 
-A new Flutter project.
+📂 Project Structure (Where to find my code)
 
-## Getting Started
+To evaluate the logic and design of this application, please focus on the lib/ directory. All the custom code I wrote for this project is organized as follows:
 
-This project is a starting point for a Flutter application.
+- Core Logic & Authentication
+Path: lib/services/auth_service.dart
 
-A few resources to get you started if this is your first Flutter project:
+- User Interface (Screens)
+Path: lib/screens/login_screen.dart AND ib/screens/home_screen.dart
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Just like that, we have some ore folders like models, widgets, etc which together makes this app Complete
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# Task-Manager-App
-Internship Assignment Project
->>>>>>> c1ec6462a7f25617579cceb73d80f18fda2e46dd
+REGUARDING THE REST API 
+Go-Quotes API (REST API): This is the external service this app calls to fetch the daily motivational quotes shown on the dashboard, handled via the http package to parse JSON data.
+you can check the respective code in  lib/services/api_service.dart
+
+BASIC WORKING : The app starts with a secure Google login to make sure only you can see your information. Once you're in, it automatically saves your tasks to the cloud, so you never lose them. It even pulls in a daily quote from the internet to keep you motivated while you organize your day.
+
+*** I USED FIREBASE REAL TIME DATA BASE INSTEAD OF FIRESTORE DATABASE FOR THE CRUD OPERATIONS BECAUSE, USING FIRESTORE AND THE FIREBASE CLOUD STORAGE WE NEED THE FIREBASE BILLING PLAN..
+       THAT IS THE REASON I USED FIREBSE REALTIME DATABASE  ***
+
+       THANKS 
+       DEVRAJ SAMADHAN SHINDE
