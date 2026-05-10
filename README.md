@@ -1,5 +1,6 @@
 TASK MANAGER APP
 
+
 📂 Project Structure (Where to find my code)
 
 To evaluate the logic and design of this application, please focus on the lib/ directory. All the custom code I wrote for this project is organized as follows:
